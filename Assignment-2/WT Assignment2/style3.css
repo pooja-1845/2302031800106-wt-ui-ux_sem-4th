@@ -1,0 +1,160 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0f7fa; /* Light Blue Background */
+    padding: 12px 40px;
+}
+/* Main Content Section */
+.hero {
+    text-align: center;
+    padding: 40px;
+}
+
+.hero h1 {
+    color: #D9531E;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.content img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.text {
+    width: 45%;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.text h2 {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* Contact Section */
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-btn {
+    background: #2BAE66;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.help {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.help i {
+    font-size: 24px;
+    color: blue;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 70px; 
+    font-size: 18px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #00796b;
+}
+.footer {
+    background: #ff5722;
+    color: white;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between; /* Space between left, center, and right */
+    align-items: center; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    gap: 30px; /* Space between icons */
+    flex: 1;
+    justify-content: center; /* Center icons */
+}
+
+.footer-right {
+    flex: 1;
+}
+
+
+

@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background: url('Blue-geometric-pattern-background.webp') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.container {
+    display: flex;
+    gap: 30px;
+    background: transparent;
+}
+.box {
+    /* background: rgba(255, 255, 255, 0.9); */
+    background-color: #C0DFFF;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.password-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.password-container input {
+    width: 100%;
+}
+.password-container i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.social-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.facebook {
+    background: #3b5998;
+    color: white;
+}
+.google {
+    background: white;
+    color: black;
+    border: 1px solid #ccc;
+}
